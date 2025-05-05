@@ -1,0 +1,151 @@
+/* Reset and Base */
+body {
+  margin: 0;
+  font-family: 'Grandstander', cursive;
+  background-color: #fff0f5; /* light pink background */
+  color: #3d0c02; /* dark maroon text */
+}
+
+/* Navigation */
+nav {
+  background-color: #800000; /* maroon */
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #ffd6e8; /* soft pink text */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover, nav a.active {
+  color: #ff99cc; /* brighter pink on hover/active */
+}
+
+/* Headings */
+main h1 {
+  text-align: center;
+  margin-top: 1em;
+  color: #800000;
+  font-size: 2.5em;
+}
+
+/* Comic Container */
+.comic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+/* Comic Pages */
+.comic-page {
+  max-width: 90%;
+  margin: 1em 0;
+  border: 5px solid #ffccd5; /* light pink border */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(128, 0, 0, 0.2); /* maroon shadow */
+}
+
+/* Spotify iframe */
+iframe {
+  display: block;
+  margin: 2em auto;
+  border: none;
+  border-radius: 12px;
+  max-width: 90%;
+}
+
+
+.favorite-comic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.featured-comic {
+  max-width: 80%;
+  height: auto;
+  border: 5px solid #ffccd5; /* optional: light pink border */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(128, 0, 0, 0.2); /* optional: soft maroon shadow */
+}
+
+
+main {
+  text-align: center;
+}
+
+
+.favorite-comic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.featured-comic {
+  max-width: 80%;
+  height: auto;
+  border: 5px solid #ffccd5;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(128, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-comic:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(128, 0, 0, 0.4);
+}
+
+.comic-caption {
+  font-family: 'Grandstander', cursive;
+  font-size: 1.2em;
+  color: #800000; /* maroon */
+  margin-top: 0.5em;
+}
+
+
+.start-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.6em 1.2em;
+  font-family: 'Grandstander', cursive;
+  font-size: 1em;
+  background-color: #800000; /* Maroon */
+  color: #fff0f3; /* Light pink text */
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(128, 0, 0, 0.2);
+}
+
+.start-button:hover {
+  background-color: #a52a2a; /* Lighter maroon */
+  transform: scale(1.05);
+}
+
+
+.profile-pic {
+  display: block;
+  margin: 0 auto;
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+
+.about-page {
+  padding: 20px; /* Adjust the value to control the spacing */
+}
+
+p {
+  margin: 0; /* Ensure there's no extra margin around the paragraph */
+}
+
+
